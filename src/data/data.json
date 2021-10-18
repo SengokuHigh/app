@@ -1,0 +1,175 @@
+{
+  "Menu": [
+    {
+      "name": "Content1",
+      "link": "content1"
+    },
+    {
+      "name": "Content2",
+      "link": "content2"
+    },
+    {
+      "name": "Content3",
+      "link": "content3"
+    },
+    {
+      "name": "Features",
+      "link": "features"
+    },
+    {
+      "name": "Roadmap",
+      "link": "roadmap"
+    },
+    {
+      "name": "Team",
+      "link": "team"
+    },
+    {
+      "name": "Find Us",
+      "link": "contact"
+    }
+  ],
+
+  "Header": {
+    "title": "Header",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "link": "#features",
+    "linkeName": "#LINK"
+  },
+
+
+  "Content1": {
+    "id": "content1",
+    "title": "content1 title",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "position": "right",
+    "image": "img/brand.png"
+  },
+
+  "Content2": {
+    "id": "content2",
+    "title": "content2 title",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "position": "left",
+    "image": "img/brand.png"
+  },
+
+  "Content3": {
+    "id": "content3",
+    "title": "content3 title",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "position": "center",
+    "image": "img/brand.png"
+  },
+
+
+
+  "Features1": {
+    "id": "features",
+    "title": "features",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "features": [
+      {
+        "image": "img/team/01.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/02.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/03.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/04.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/04.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/04.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/04.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      }
+    ]
+  },
+
+  "Roadmap":{
+    "id":"roadmap",
+    "title": "Roadmap",
+    "description":"Road map",
+    "features":[
+      {
+        "title": "title1",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title2",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title3",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title4",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title5",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title6",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      }
+    ]
+  },
+
+  "Team": {
+    "id": "team",
+    "title": "Team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "features": [
+      {
+        "image": "img/team/01.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/02.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/03.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/team/04.jpg",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      }
+    ]
+  },
+
+  "Contact": {
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}
