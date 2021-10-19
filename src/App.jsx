@@ -27,7 +27,6 @@ const App = () => {
 
       <Content data={landingPageData.Content1}/>
       <Content data={landingPageData.Content2}/>
-      <Content data={landingPageData.Content3}/>
 
       <Features data={landingPageData.Features1} />
       <Features data={landingPageData.Roadmap} />

@@ -5,15 +5,21 @@ export const Content = (props) => {
         <div id={props.data ? props.data.id : "content"} className="content">
           <div className="container">
   
-          <div className="row">
-                  <div className="col-xs-12 col-md-6">
-                    {" "}
-                    <img src={props.data ? props.data.image : ""} className="img-responsive" alt="" />{" "}
+            <div className="row">
+                  <div className="col-xs-12 col-md-6 left">
+  
+                    <img src={props.data ? props.data.image : ""} className="img-responsive" alt="" />
                   </div>
-                  <div className="col-xs-12 col-md-6">
+                  <div className="col-xs-12 col-md-6 right">
                     <div className="title-text">
                       <h2>{props.data ? props.data.title : "loading..."}</h2>
-                      <p>{props.data ? props.data.paragraph : "loading..."}</p>
+
+                      {props.data
+                        ? props.data.paragraph.map((d, i) => (
+                          <p>{`${d.text}`}</p>
+                          ))
+                        : 'Loading...'}
+                      
                     </div>
                   </div>
           </div>
@@ -26,15 +32,18 @@ export const Content = (props) => {
           <div id={props.data ? props.data.id : "content"} className="content">
             <div className="container">
             <div className="row">
-                      <div className="col-xs-12 col-md-6">
+                      <div className="col-xs-12 col-md-6 left">
                         <div className="title-text">
                           <h2>{props.data ? props.data.title : "loading..."}</h2>
-                          <p>{props.data ? props.data.paragraph : "loading..."}</p>
+                      {props.data
+                        ? props.data.paragraph.map((d, i) => (
+                          <p>{`${d.text}`}</p>
+                          ))
+                        : 'Loading...'}
                         </div>
                       </div>
-                      <div className="col-xs-12 col-md-6">
-                        {" "}
-                        <img src={props.data ? props.data.image : ""} className="img-responsive" alt="" />{" "}
+                      <div className="col-xs-12 col-md-6 right">
+                        <img src={props.data ? props.data.image : ""} className="img-responsive" alt="" />
                       </div>
                     </div>
             </div>
@@ -45,17 +54,20 @@ export const Content = (props) => {
           <div id={props.data ? props.data.id : "content"} className="content">
             <div className="container">
             <div className="row">
-                      <div className="col-xs-12 col-md-12">
+                      <div className="col-xs-12 col-md-12 center">
                         <div className="title-text-centered">
                           <h2>{props.data ? props.data.title : "loading..."}</h2>
-                          <p>{props.data ? props.data.paragraph : "loading..."}</p>
+                      {props.data
+                        ? props.data.paragraph.map((d, i) => (
+                          <p>{`${d.text}`}</p>
+                          ))
+                        : 'Loading...'}
                         </div>
                       </div>
               </div>
             <div className="row">
                       <div className="col-xs-12 col-md-12">
-                        {" "}
-                        <img src={props.data ? props.data.image : ""} className="img-responsive" alt="" />{" "}
+                        <img src={props.data ? props.data.image : ""} className="img-responsive" alt="" />
                       </div>
               </div>
             </div>

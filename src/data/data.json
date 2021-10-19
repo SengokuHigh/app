@@ -1,12 +1,8 @@
 {
   "Menu": [
     {
-      "name": "Content1",
-      "link": "content1"
-    },
-    {
-      "name": "Content2",
-      "link": "content2"
+      "name": "Story",
+      "link": "story"
     },
     {
       "name": "Content3",
@@ -31,37 +27,32 @@
   ],
 
   "Header": {
-    "title": "Header",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "link": "#features",
-    "linkeName": "#LINK"
+    "title": "",
+    "paragraph": "",
+    "link": "",
+    "linkeName": "",
+    "image": "img/logo.png"
   },
-
 
   "Content1": {
-    "id": "content1",
-    "title": "content1 title",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "position": "right",
-    "image": "img/brand.png"
-  },
+    "id": "overview",
+    "title": "Overview",
+    "position": "center",
+    "paragraph": [
+      {"text":"Sengoku High is a school that lives on the ethereum blockchain. It has 7,777 slots available for fighters to be enrolled into. Each fighter is original, with its own style and weapons..."      }
+    ]
+    },
 
   "Content2": {
-    "id": "content2",
-    "title": "content2 title",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "position": "left",
-    "image": "img/brand.png"
+    "id": "story",
+    "title": "Story",
+    "paragraph": [
+      {"text":"In the year 2050, Hayato, a 17 year old boy who has attended 20 schools that always ended up getting kicked out for starting fights. After getting expelled from his 20th school and couldn't find another school that would accept him, Hayato thought it's a God sent when he encountered a mysterious lady, Megumi, who proposed to help him enroll into a school. "    },
+      {"text":"Hayato was quick to accept, little did he know, the school is Sengoku High, infamous for having many students like him, who have been rejected by other high schools for troublemaking, except in this school, everyone possesses supernatural powers. And it turned out that Hayato possesses power that he never knew.\n\nSengoku High is ruled by the principal, Nomura Oda, along with 4 section lords under him. And thus begins a story filled with rivaling schools’ fights with weapons and supernatural powers…"}
+    ],
+    "position": "right",
+    "image": "img/hayato_side_profile.png"
   },
-
-  "Content3": {
-    "id": "content3",
-    "title": "content3 title",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "position": "center",
-    "image": "img/brand.png"
-  },
-
 
 
   "Features1": {
