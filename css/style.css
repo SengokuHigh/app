@@ -85,9 +85,9 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
-  width: 100px;
-  height: 43px;
-  background: url(../img/brand.png) center center no-repeat;
+  width: 230px;
+  height: 50px;
+  background: url(../img/logo.png) center center no-repeat;
   background-size: 100% 100%;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -206,20 +206,31 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+
+
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/bg1.png) center center no-repeat;
-  background-color: #e5e5e5;
+  background: url(../img/3v3.png) fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  text-align: center;
+  vertical-align: middle;
 }
+
+.intro img {
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
 }
+
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -242,10 +253,63 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 100px;
   text-align: top;
 }
+
+/*overview*/
+#overview {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background: url(../img/3v3_bw.png) fixed center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+#overview .container h2 {
+  color: white;
+}
+
+
+/*story*/
+#story img{
+  border: 1px solid black;
+  width: 350px;
+}
+#story {
+  /* background: url(../img/3v3_bw.png) fixed center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white; */
+}
+
+
+/*content3*/
+#content3 {
+  /* padding-top: 0px;
+  background: url(../img/3v3_bw.png) fixed center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white; */
+}
+
+#content3 h2::after {
+  position: absolute;
+  content: "";
+  background: transparent;
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+
 
 
 /* Content Section */
