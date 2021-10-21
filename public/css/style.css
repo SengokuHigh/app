@@ -1,3 +1,25 @@
+
+@font-face {
+  font-family: 'Godeater';
+  src: url('../fonts/fonts/GodEaterRegular.ttf');
+ }
+ @font-face {
+  font-family: 'alpha';
+  src: url('../fonts/fonts/Hello Alpha.ttf');
+ }
+ @font-face {
+  font-family: 'Jolana';
+  src: url('../fonts/fonts/Jolana.ttf');
+ }
+ @font-face {
+  font-family: 'Glacies';
+  src: url('../fonts/fonts/Ignis et Glacies Extra Sharp.ttf');
+ } 
+ @font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/fonts/Orbitron Black.ttf')
+ } 
+ 
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -11,7 +33,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -19,6 +41,7 @@ h2 {
   font-weight: 800;
   font-size: 36px;
   color: #333;
+  font-family: "Glacies";
 }
 h3 {
   font-size: 20px;
@@ -74,8 +97,12 @@ hr {
 #menu {
   transition: all 0.8s;
 }
+#menu .container{
+  width: 100%
+}
+
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -85,9 +112,10 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
-  width: 230px;
-  height: 50px;
-  background: url(../img/logo.png) center center no-repeat;
+  width: 55px;
+  height: 40px;
+  margin: 5px 10px 5px 10px;
+  background: url(../img/logo_short.png) center center no-repeat;
   background-size: 100% 100%;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -151,7 +179,7 @@ hr {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-.section-title h2::after {
+/* .section-title h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -160,10 +188,11 @@ hr {
   bottom: 0;
   margin-left: -30px;
   left: 50%;
-}
+} */
 .section-title p {
   font-size: 18px;
 }
+
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -207,23 +236,26 @@ a:focus,
 }
 /* Header Section */
 
-
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/3v3.png) fixed center no-repeat;
+  /* background: url(../img/3v3.png) fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   text-align: center;
   vertical-align: middle;
 }
 
-.intro img {
+.intro .logo {
   padding-top: 30%;
-  padding-bottom: 30%;
+  /* padding-bottom: 30%; */
+}
+.intro .intro-image {
+  padding-top: 30%;
+  /* padding-bottom: 30%; */
 }
 
 .intro .overlay {
@@ -233,7 +265,7 @@ a:focus,
 
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  /* color: #fff; */
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -245,7 +277,7 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  /* color: #fff; */
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -256,28 +288,28 @@ header .intro-text {
   text-align: top;
 }
 
-/*overview*/
-#overview {
+/*story*/
+#story {
   padding-top: 3%;
   padding-bottom: 3%;
-  background: url(../img/3v3_bw.png) fixed center no-repeat;
+  /* background: url(../img/3v3_bw.png) fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   text-align: center;
-  color: white;
+  /* color: white; */
 }
 
-#overview .container h2 {
-  color: white;
+#story .container h2 {
+  /* color: white; */
 }
 
 
 /*story*/
 #story img{
-  border: 1px solid black;
-  width: 350px;
+  /* border: 1px solid black; */
+  /* width: 350px; */
 }
 #story {
   /* background: url(../img/3v3_bw.png) fixed center no-repeat;
@@ -325,7 +357,7 @@ header .intro-text {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-.content h2::after {
+/* .content h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -333,7 +365,7 @@ header .intro-text {
   width: 60px;
   bottom: 0;
   left: 0;
-}
+} */
 .content .title-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -368,7 +400,7 @@ header .intro-text {
   text-align: center;
 }
 
-.title-text-centered h2::after {
+/* .title-text-centered h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -377,7 +409,7 @@ header .intro-text {
   bottom: 0;
   margin-left: -30px;
   left: 50%;
-}
+} */
 
 /* Features Section */
 .features-section {

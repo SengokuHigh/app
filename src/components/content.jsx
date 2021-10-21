@@ -1,10 +1,10 @@
+
 export const Content = (props) => {
   if(props.data){
     if(props.data.position  === 'right'){
       return (
         <div id={props.data ? props.data.id : "content"} className="content">
           <div className="container">
-  
             <div className="row">
                   <div className="col-xs-12 col-md-6 left">
   
@@ -16,13 +16,15 @@ export const Content = (props) => {
 
                       {props.data
                         ? props.data.paragraph.map((d, i) => (
-                          <p>{`${d.text}`}</p>
+                          <p className='para'>
+                            <h3>title</h3>
+                          <h3>{`${d.title}`}</h3>{`${d.text}`}</p>
                           ))
                         : 'Loading...'}
                       
                     </div>
                   </div>
-          </div>
+            </div>
           </div>
         </div>
       );
@@ -37,7 +39,8 @@ export const Content = (props) => {
                           <h2>{props.data ? props.data.title : "loading..."}</h2>
                       {props.data
                         ? props.data.paragraph.map((d, i) => (
-                          <p>{`${d.text}`}</p>
+                          <p className='para'>
+                          <h3>{`${d.title}`}</h3>{`${d.text}`}</p>
                           ))
                         : 'Loading...'}
                         </div>
@@ -51,7 +54,7 @@ export const Content = (props) => {
         );
       }else{  
         return (
-          <div id={props.data ? props.data.id : "content"} className="content">
+          <div id={props.data ? props.data.id : "content"} className="content"> 
             <div className="container">
             <div className="row">
                       <div className="col-xs-12 col-md-12 center">
@@ -59,7 +62,8 @@ export const Content = (props) => {
                           <h2>{props.data ? props.data.title : "loading..."}</h2>
                       {props.data
                         ? props.data.paragraph.map((d, i) => (
-                          <p>{`${d.text}`}</p>
+                          <p className='para'>
+                          <h3>{`${d.title}`}</h3>{`${d.text}`}</p>
                           ))
                         : 'Loading...'}
                         </div>

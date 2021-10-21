@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
+import { FeatureSlider } from "./components/featureSlider";
 import { Content } from "./components/content";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
@@ -22,13 +23,13 @@ const App = () => {
   return (
     <div>
       <Navigation data={landingPageData.Menu} />
-
       <Header data={landingPageData.Header} />
 
-      <Content data={landingPageData.Content1}/>
-      <Content data={landingPageData.Content2}/>
+      <Content data={landingPageData.Story}/>
 
-      <Features data={landingPageData.Features1} />
+      <FeatureSlider data={landingPageData.Features1} />
+      <Features data={landingPageData.Features2} />
+      <Features data={landingPageData.Rarity} />
       <Features data={landingPageData.Roadmap} />
       <Features data={landingPageData.Team} />
 

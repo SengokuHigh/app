@@ -5,28 +5,32 @@ export const Header = (props) => {
         <div className='overlay'>
           <div className='container'>
             <div className='row'>
-              <div className='col-md-8 col-md-offset-2 intro-text slide'>
-                <h1>
+              <div className='col-xs-12 col-md-6 intro-text'>
+                    <img src={props.data ? props.data.logo : ""} className="img-responsive logo" alt="" />
+                <h2>
                   {props.data ? props.data.title : 'Loading'}
                   <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
+                </h2>
+                  {props.data
+                        ? props.data.paragraph.map((d, i) => (
+                          <p>{d ? d.text : 'Loading'}</p>
+                          ))
+                        : 'Loading...'}
 
-                    <img src={props.data ? props.data.image : ""} className="img-responsive" alt="" />{" "}
+                    {props.data
+                        ? props.data.links.map((d, i) => (
+                          <a
+                          href={d ? d.link : 'Loading'}
+                          className='btn btn-custom btn-lg page-scroll'
+                        >
+                          {d ? d.linkeName : 'Loading'}
+                        </a>
+                          ))
+                        : 'Loading...'}
                 
-                {
-                  (props.data && props.data.link)?
-                <a
-                  href={props.data ? props.data.link : 'Loading'}
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  {props.data ? props.data.linkeName : 'Loading'}
-                </a>
-                :
-                <span></span>
-                }
-                
-                
+              </div>
+              <div className='col-xs-12 col-md-6'>
+                <img src={props.data ? props.data.image : ""} className="img-responsive intro-image" alt="" />{" "}
               </div>
             </div>
           </div>

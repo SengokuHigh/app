@@ -27,38 +27,43 @@
   ],
 
   "Header": {
-    "title": "",
-    "paragraph": "",
-    "link": "",
-    "linkeName": "",
-    "image": "img/logo.png"
+    "title": "Coming Soon",
+    "paragraph": [
+      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 fighters ready to be enrolled. Each fighter is original, come with its own style and weapons."}
+    ]
+    ,
+    "links":[
+      {
+        "link": "LINK1",
+        "linkeName": "LINK1"},
+        
+      {
+        "link": "LINK1",
+        "linkeName": "LINK1"}
+    ],
+    "logo": "img/logo_b.png",
+    "image": "img/hayato.png"
   },
 
-  "Content1": {
-    "id": "overview",
-    "title": "Overview",
-    "position": "center",
-    "paragraph": [
-      {"text":"Sengoku High is a school that lives on the ethereum blockchain. It has 7,777 slots available for fighters to be enrolled into. Each fighter is original, with its own style and weapons..."      }
-    ]
-    },
 
-  "Content2": {
+  "Story": {
     "id": "story",
     "title": "Story",
     "paragraph": [
-      {"text":"In the year 2050, Hayato, a 17 year old boy who has attended 20 schools that always ended up getting kicked out for starting fights. After getting expelled from his 20th school and couldn't find another school that would accept him, Hayato thought it's a God sent when he encountered a mysterious lady, Megumi, who proposed to help him enroll into a school. "    },
-      {"text":"Hayato was quick to accept, little did he know, the school is Sengoku High, infamous for having many students like him, who have been rejected by other high schools for troublemaking, except in this school, everyone possesses supernatural powers. And it turned out that Hayato possesses power that he never knew.\n\nSengoku High is ruled by the principal, Nomura Oda, along with 4 section lords under him. And thus begins a story filled with rivaling schools’ fights with weapons and supernatural powers…"}
+      {"title":"","text":"In the year 2050, Hayato, a 17 year old boy who has attended 20 schools that always ended up getting kicked out for starting fights. After getting expelled from his 20th school and couldn't find another school that would accept him, Hayato thought it's a God sent when he encountered a mysterious lady, Megumi, who proposed to help him enroll into a school. "    },
+      {"title":"","text":"Sengoku High, infamous for having many students like him, who have been rejected by other high schools for troublemaking, except in this school, everyone possesses supernatural powers. And it turned out that Hayato possesses power that he never knew."},
+      {"title":"","text": "Sengoku High is ruled by the principal, Nomura Oda, along with 4 section lords under him. And thus begins a story filled with rivaling schools’ fights with weapons and supernatural powers…"}
     ],
-    "position": "right",
-    "image": "img/hayato_side_profile.png"
+    "position": "center"
   },
 
 
   "Features1": {
     "id": "features",
-    "title": "features",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Characters",
+    "description1": "",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    
     "features": [
       {
         "image": "img/team/01.jpg",
@@ -98,6 +103,66 @@
     ]
   },
 
+  "Features2": {
+    "id": "classes",
+    "title": "Styles",
+    "description1": "There four fighter styles, each has their own pros and cons.",
+    "description2": "",
+    "features": [
+      {
+        "image": "img/classes/sword_style.png",
+        "title": "Swordman",
+        "text": "Swordman specializes in melee attacks, whether with weapons or just plain old fists and is the most skilled with the swords and katana weapons."
+      },
+      {
+        "image": "img/classes/rouge_style.png",
+        "title": "Ninja",
+        "text": "Assassins have higher skill sets in the areas of stealth, sneaking, and smaller, quicker weaponsbut usually begins with lower defensive stats than other classes."
+      },
+      {
+        "image": "img/classes/magic_style.png",
+        "title": "Magician",
+        "text": "Mages do their damage from long range with fire, ice, and other spell use as opposed to close quarters, where they’re usually susceptible to damage."
+      },
+      {
+        "image": "img/classes/summoner_style.png",
+        "title": "Summoner",
+        "text": "Summoners are known for their ability to summon magical beasts to fight using their special magic."
+      }
+    ]
+  },
+
+  "Rarity":{
+    "id":"rarity",
+    "title": "Rarity",
+    "description":"",
+    "features":[
+      {
+        "title": "title1",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title2",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title3",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title4",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title5",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "title": "title6",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      }
+    ]
+  },
   "Roadmap":{
     "id":"roadmap",
     "title": "Roadmap",
