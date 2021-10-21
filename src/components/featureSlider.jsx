@@ -10,7 +10,7 @@ export const FeatureSlider = (props) => {
           
           <p>{props.data ? props.data.description1 : ""}</p>
           {props.data?
-            <Slider slidesPerRow="3" autoplay="true" autoplaySpeed	="3000" dots>
+            <Slider slidesPerRow="3" arrows="false" dots="false" autoplay="true" autoplaySpeed="3000" >
             {props.data
                 ? props.data.features.map((d, i) => (
                   <div  className='col-xs-6 col-md-3 features-section-wrapper'>
