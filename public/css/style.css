@@ -385,6 +385,12 @@ header .intro-text-overlay {
   left: 0;
 }
 
+
+#characters .features-section-wrapper {
+  transition: all 0.5s;
+  min-width: 350px;
+}
+
 /*features section*/
 
 #features {
@@ -457,6 +463,7 @@ header .intro-text-overlay {
   border: 1px solid rgb(170, 170, 170);
   padding: 5px;
   margin: 10px;
+  min-width: 350px;
 }
 
 
@@ -490,6 +497,9 @@ header .intro-text-overlay {
   padding: 50px 0px 50px 0px;
 }
 
+.features-section-wrapper{
+  min-width: 230px;
+}
 
 
 /* Content Section */
@@ -557,11 +567,6 @@ header .intro-text-overlay {
   left: 50%;
 } */
 
-/* Features Section */
-.features-section-wrapper {
-  transition: all 0.5s;
-  min-width: 230px;
-}
 
 /* Contact Section */
 #contact {
