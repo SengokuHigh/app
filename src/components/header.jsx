@@ -3,9 +3,11 @@ export const Header = (props) => {
     <header id='header'>
       <div className='intro'>
         <div className='overlay'>
+        <div className='overlay2'>
           <div className='container'>
             <div className='row'>
               <div className='col-xs-12 col-md-6 intro-text'>
+              <div className='intro-text-overlay'>
                     <img src={props.data ? props.data.logo : ""} className="img-responsive logo" alt="" />
                 <h2>
                   {props.data ? props.data.title : 'Loading'}
@@ -27,12 +29,13 @@ export const Header = (props) => {
                         </a>
                           ))
                         : 'Loading...'}
-                
+                        </div>
               </div>
               <div className='col-xs-12 col-md-6'>
                 <img src={props.data ? props.data.image : ""} className="img-responsive intro-image" alt="" />{" "}
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

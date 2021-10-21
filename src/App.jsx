@@ -2,8 +2,10 @@ import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
+import { Roadmap } from "./components/roadmap";
 import { FeatureSlider } from "./components/featureSlider";
 import { Content } from "./components/content";
+
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -28,9 +30,9 @@ const App = () => {
       <Content data={landingPageData.Story}/>
 
       <FeatureSlider data={landingPageData.Features1} />
+      <Features data={landingPageData.Features3} />
       <Features data={landingPageData.Features2} />
-      <Features data={landingPageData.Rarity} />
-      <Features data={landingPageData.Roadmap} />
+      <Roadmap data={landingPageData.Roadmap} />
       <Features data={landingPageData.Team} />
 
       <Contact data={landingPageData.Contact} />

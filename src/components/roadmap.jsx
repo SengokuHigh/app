@@ -1,4 +1,4 @@
-export const Features = (props) => {
+export const Roadmap = (props) => {
   return (
     <div  id={props.data ? props.data.id : "features"} className='features text-center'>
     <div className='overlay'>
@@ -12,12 +12,13 @@ export const Features = (props) => {
             {props.data
             ? props.data.features.map((d, i) => (
               <div className='col-xs-6 col-md-1 features-section-wrapper'>
-                <div key={`${d.title}-${i}`} className='features-section'>
+                <div key={`${d.title}-${i}`} className='col-xs-6 col-md-1 features-section'>
                   {' '}
                   <img src={d.image ? d.image : ""} className="img-responsive" alt="" />
                   <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
+                  <p>{d.texts.map((text, i) => (<p>{text.text}</p>))}</p>
+
+                  </div>
                 </div>
               ))
             : 'Loading...'}

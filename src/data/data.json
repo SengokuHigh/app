@@ -5,8 +5,8 @@
       "link": "story"
     },
     {
-      "name": "Content3",
-      "link": "content3"
+      "name": "Characters",
+      "link": "characters"
     },
     {
       "name": "Features",
@@ -29,7 +29,7 @@
   "Header": {
     "title": "Coming Soon",
     "paragraph": [
-      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 fighters ready to be enrolled. Each fighter is original, come with its own style and weapons."}
+      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 fighters ready to be enrolled. Each fighter is original, come with its own style and weapons. "}
     ]
     ,
     "links":[
@@ -59,44 +59,44 @@
 
 
   "Features1": {
-    "id": "features",
+    "id": "characters",
     "title": "Characters",
-    "description1": "",
-    "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description1": "These characters are designed 1/1 and can only be minted once, so look out for the drops! They are carefully crafted with a logical backstory, personal motivation, and a character arc over the course of the story. We will reveal more along the way!",
+    "description2": "",
     
     "features": [
       {
-        "image": "img/team/01.jpg",
+        "image": "img/character/hayato_side_profile.png",
+        "title": "Hayato",
+        "text": "A reckless shonen that possesses hidden special power"
+      },
+      {
+        "image": "img/character/146.png",
+        "title": "Megumi",
+        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      },
+      {
+        "image": "img/character/396.png",
         "title": "Lorem ipsum",
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
       },
       {
-        "image": "img/team/02.jpg",
+        "image": "img/character/placeholder.png",
         "title": "Lorem ipsum",
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
       },
       {
-        "image": "img/team/03.jpg",
+        "image": "img/character/placeholder.png",
         "title": "Lorem ipsum",
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
       },
       {
-        "image": "img/team/04.jpg",
+        "image": "img/character/placeholder.png",
         "title": "Lorem ipsum",
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
       },
       {
-        "image": "img/team/04.jpg",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-      },
-      {
-        "image": "img/team/04.jpg",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-      },
-      {
-        "image": "img/team/04.jpg",
+        "image": "img/character/placeholder.png",
         "title": "Lorem ipsum",
         "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
       }
@@ -106,7 +106,7 @@
   "Features2": {
     "id": "classes",
     "title": "Styles",
-    "description1": "There four fighter styles, each has their own pros and cons.",
+    "description1": "There four fighting styles, each has their own pros and cons. Choose your style!",
     "description2": "",
     "features": [
       {
@@ -132,34 +132,26 @@
     ]
   },
 
-  "Rarity":{
-    "id":"rarity",
-    "title": "Rarity",
+  "Features3":{
+    "id":"features",
+    "title": "Features",
     "description":"",
     "features":[
       {
-        "title": "title1",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "Rarity",
+        "text": "Each character are worth between 5 to 10 points. A rare items would worth more point than an item that are common."
       },
       {
-        "title": "title2",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "Character Stats",
+        "text": "Each character has a set of stats; VIT, STR, DEX, INT. These stats are distributed randomly based on the amount of points it is worth."
       },
       {
-        "title": "title3",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "Other Utilites",
+        "text": "The Stats will contributes to our game mechanics, future contests and raffles!"
       },
       {
-        "title": "title4",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-      },
-      {
-        "title": "title5",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-      },
-      {
-        "title": "title6",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "And More",
+        "text": "Detail TBA"
       }
     ]
   },
@@ -170,27 +162,42 @@
     "features":[
       {
         "title": "title1",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "texts": [
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."}
+        ]
       },
+      
       {
         "title": "title2",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "texts": [
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."}
+        ]
       },
+      
       {
         "title": "title3",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "texts": [
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."}
+        ]
       },
+      
       {
         "title": "title4",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-      },
-      {
-        "title": "title5",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-      },
-      {
-        "title": "title6",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "texts": [
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
+          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."}
+        ]
       }
     ]
   },
@@ -198,27 +205,27 @@
   "Team": {
     "id": "team",
     "title": "Team",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description2": "We have always been interested in Japanese culture and blockchain technology. So, we began to think, maybe we could create a project based around them and that is how our project got started. We decided to work on a project that offers anime style content to every weebs like us, who enjoys playing video games and collecting merchandise. Our objective is to create a NFT that is not just a regular token, but something that has utility in our project ecosystem that we are creating.",
     "features": [
       {
-        "image": "img/team/01.jpg",
+        "image": "img/team/102.jpg",
         "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "text": "Lorem ipsum dolor ."
       },
       {
-        "image": "img/team/02.jpg",
+        "image": "img/team/168.jpg",
         "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "text": "Lorem ipsum dolor ."
       },
       {
-        "image": "img/team/03.jpg",
+        "image": "img/team/173.jpg",
         "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "text": "Lorem ipsum dolor ."
       },
       {
-        "image": "img/team/04.jpg",
+        "image": "img/team/186.jpg",
         "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "text": "Lorem ipsum dolor ."
       }
     ]
   },

@@ -4,6 +4,7 @@ import Slider from 'infinite-react-carousel';
 export const FeatureSlider = (props) => {
   return (
     <div  id={props.data ? props.data.id : "features"} className='features text-center'>
+    <div className='overlay'>
       <div className='container'>
           <h2>{props.data ? props.data.title : "Features"}</h2>
           
@@ -24,6 +25,7 @@ export const FeatureSlider = (props) => {
           : ""}
           <p>{props.data ? props.data.description2 : ""}
           </p>
+      </div>
       </div>
 
 
