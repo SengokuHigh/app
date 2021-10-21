@@ -391,6 +391,10 @@ header .intro-text-overlay {
   min-width: 350px;
 }
 
+#characters .carousel-next,#characters .carousel-prev{
+display: none;
+}
+
 /*features section*/
 
 #features {
