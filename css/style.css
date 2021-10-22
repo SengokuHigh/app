@@ -24,7 +24,64 @@
   src: url('../fonts/fonts/ChakraPetch-Regular.ttf')
  } 
 
+
  
+@font-face {
+  font-family: 'Plaguard';
+  src: url('../fonts/fonts/Plaguard-ZVnjx.otf')
+ } 
+ @font-face {
+  font-family: 'relish';
+  src: url('../fonts/fonts/relish gargler.otf')
+ } 
+ @font-face {
+  font-family: 'RoxyvpRegular';
+  src: url('../fonts/fonts/RoxyvpRegular-3zxW6.otf')
+ } 
+ @font-face {
+  font-family: 'just_in_the_firestorm';
+  src: url('../fonts/fonts/just_in_the_firestorm.ttf')
+ } 
+ @font-face {
+  font-family: 'OCTICITY';
+  src: url('../fonts/fonts/OCTICITY.TTF')
+ } 
+ @font-face {
+  font-family: 'OdeToIdleGaming';
+  src: url('../fonts/fonts/OdeToIdleGaming-R8EM.ttf')
+ } 
+ @font-face {
+  font-family: 'RapierZero';
+  src: url('../fonts/fonts/RapierZero-325M.ttf')
+ } 
+ 
+ @font-face {
+  font-family: 'v';
+  src: url('../fonts/fonts/v dub.ttf')
+ } 
+ 
+ @font-face {
+  font-family: 'VerminVibesV';
+  src: url('../fonts/fonts/VerminVibesV-Zlg3.ttf')
+ } 
+ 
+ @font-face {
+  font-family: 'Wallpoet';
+  src: url('../fonts/fonts/Wallpoet-Regular.ttf')
+ } 
+ 
+ @font-face {
+  font-family: 'YuseiMagic';
+  src: url('../fonts/fonts/YuseiMagic-Regular.ttf')
+ } 
+ 
+ @font-face {
+  font-family: 'ReggaeOne';
+  src: url('../fonts/fonts/ReggaeOne-Regular.ttf')
+ } 
+ 
+ 
+
  
 body,
 html {
@@ -126,12 +183,14 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
-  width: 55px;
+  width: 40px;
   height: 40px;
   margin: 5px 10px 5px 10px;
-  background: url(../img/logo_short.png) center center no-repeat;
+  background: url(../img/logo_ch_bw.png) center center no-repeat;
   background-size: 100% 100%;
+  /* background-color: rgb(119, 183, 255); */
 }
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   color: #555;
@@ -254,7 +313,26 @@ a:focus,
   vertical-align: middle;
   color: black;
 }
+#header .logo-text{
+  font-family: "VerminVibesV", sans-serif;
+  font-weight: 100;
+  font-size: 3.5em;
+  color: rgb(0, 0, 0);
+}
 
+#header .logo-subtext{
+  font-family: "ReggaeOne", sans-serif;
+  color: rgb(32, 32, 32);
+  font-size: 2em;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+#header .logo-subtext:after,
+#header .logo-subtext:before{
+    padding: 8px;
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
 
 .intro .overlay {
   background: url(../img/megumi.png) fixed center no-repeat; 
@@ -267,7 +345,7 @@ a:focus,
 .intro .overlay2 {
   height: 100%;
   background: rgba(255, 255, 255, 0);
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 
@@ -276,14 +354,14 @@ a:focus,
   /* padding-bottom: 30%; */
 }
 .intro .intro-image {
-  /* padding-top: 30%; */
+  margin-top: -30px;
   /* padding-bottom: 30%; */
 }
 
 header .intro-text {
   background: rgba(255, 255, 255, 0.5);
-  margin-top: 50px;
   padding: 5px;
+  min-width: 490px;
   /* -webkit-clip-path: polygon(17% 0%, 85% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%, 0% 86%, 0% 17%);
   clip-path: polygon(17% 0%, 85% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%, 0% 86%, 0% 17%); */
   border: 1px solid rgb(212, 212, 212);
@@ -317,7 +395,7 @@ header .intro-text-overlay {
   font-weight: 300;
   line-height: 30px; */
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 /*story*/
@@ -481,7 +559,7 @@ display: none;
   margin: auto;
   border-radius: 0%;
   padding: 5px;
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255, 0.7);
   border: 1px solid rgb(170, 170, 170);
 }
 
