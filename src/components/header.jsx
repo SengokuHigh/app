@@ -8,7 +8,18 @@ export const Header = (props) => {
             <div className='row'>
               <div className='col-xs-12 col-md-6 intro-text'>
               <div className='intro-text-overlay'>
-                    <img src={props.data ? props.data.logo : ""} className="img-responsive logo" alt="" />
+              {(props.data && props.data.logo) ? <img src={props.data.logo} className="img-responsive logo" alt="" /> : ""}  
+
+
+                    
+                <h1 className ="logo-text">
+                  {props.data ? props.data.logoText : 'Loading'}
+                  <span></span>
+                </h1>
+                <h2 className ="logo-subtext">
+                  {props.data ? props.data.logoSubText : 'Loading'}
+                  <span></span>
+                </h2>
                 <h2>
                   {props.data ? props.data.title : 'Loading'}
                   <span></span>

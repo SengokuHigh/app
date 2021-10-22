@@ -26,7 +26,9 @@
     }
   ],
 
-  "Header": {
+  "Headerbackup": {
+    "logoText": "SENGOKU HIGH",
+    "logoSubText": "戦国学園",
     "title": "Coming Soon",
     "paragraph": [
       {"text": "Sengoku High is a school that lives on the blockchain with 7,777 fighters ready to be enrolled. Each fighter is original, come with its own style and weapons. "}
@@ -42,6 +44,27 @@
         "linkeName": "LINK1"}
     ],
     "logo": "img/logo_b.png",
+    "image": "img/hayato.png"
+  },
+
+
+  "Header": {
+    "logoText": "SENGOKU HIGH",
+    "logoSubText": "戦国学園",
+    "title": "Coming Soon",
+    "paragraph": [
+      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 fighters ready to be enrolled. Each fighter is original, come with its own style and weapons. "}
+    ]
+    ,
+    "links":[
+      {
+        "link": "LINK1",
+        "linkeName": "LINK1"},
+        
+      {
+        "link": "LINK1",
+        "linkeName": "LINK1"}
+    ],
     "image": "img/hayato.png"
   },
 
