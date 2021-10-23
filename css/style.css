@@ -80,15 +80,25 @@
   src: url('../fonts/fonts/ReggaeOne-Regular.ttf')
  } 
  
+ @font-face {
+  font-family: 'ZenMaruGothic';
+  src: url('../fonts/fonts/ZenMaruGothic-Regular.ttf')
+ } 
  
-
+ @font-face {
+  font-family: 'ZenKakuGothicAntique';
+  src: url('../fonts/fonts/ZenKakuGothicAntique-Regular.ttf')
+ } 
+ 
+ 
+ 
  
 body,
 html {
   font-family: "ChakraPetch", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: rgb(61, 61, 61);
+  color:   rgb(85, 85, 85);
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -104,14 +114,14 @@ h2,
 h3,
 h4 {
   /* font-family: "ChakraPetch", sans-serif; */
-  color: rgb(61, 61, 61);
+  color:   rgb(64, 64, 64);
 }
 h2 {
   text-transform: uppercase;
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: rgb(61, 61, 61);
+  color:   rgb(64, 64, 64);
   /* font-family: "ChakraPetch"; */
 }
 h3 {
@@ -177,8 +187,9 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
@@ -187,12 +198,21 @@ hr {
   height: 40px;
   margin: 5px 10px 5px 10px;
   background: url(../img/logo_ch_bw.png) center center no-repeat;
-  background-size: 100% 100%;
-  /* background-color: rgb(119, 183, 255); */
+  background-size: 100% 100%; */
+}
+
+#menu a.navbar-brand:after {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'ZenKakuGothicAntique', sans-serif;
+  border-radius: 10%;
+  text-transform: uppercase;
+  padding: 0px 6px 0px 6px;
+  content:"戦";
+  border: 1px solid rgb(190, 190, 190);
 }
 
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
   color: #555;
   font-size: 15px;
   font-weight: 400;
@@ -207,7 +227,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #4285F4;
   content: "";
   transition: width 0.2s;
 }
@@ -228,7 +248,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: 4285F4 !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -256,8 +276,7 @@ hr {
 
 
 .btn-custom {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
+  /* 
   color: #fff;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -268,8 +287,19 @@ hr {
   font-weight: 500;
   border-radius: 25px;
   transition: all 0.5s linear;
-  border: 0;
+  border: 0;  */
+  text-transform: uppercase;
+  
+  width: 130px;
+  padding: 10px 20px 10px 20px;
+  -webkit-clip-path: polygon(10% 0%, 85% 0%, 100% 0%, 100% 70%, 90% 100%, 0% 100%, 0% 90%, 0% 30%);
+  clip-path: polygon(10% 0%, 85% 0%, 100% 0%, 100% 70%, 90% 100%, 0% 100%, 0% 90%, 0% 30%);
+  border-radius: 0%;
+  margin:0px 0px 20px 20px;
+  
+  transition: 0.4s;
 }
+/* 
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
@@ -279,6 +309,7 @@ hr {
   background-image: none;
   background-color: #6372ff;
 }
+
 .btn:active,
 .btn.active {
   background-image: none;
@@ -295,7 +326,8 @@ a:focus,
 .btn.active.focus {
   outline: none;
   outline-offset: none;
-}
+} */
+
 /* Header Section */
 
 .intro {
@@ -321,17 +353,19 @@ a:focus,
 }
 
 #header .logo-subtext{
-  font-family: "ReggaeOne", sans-serif;
+  font-family: "ZenKakuGothicAntique", sans-serif;
   color: rgb(32, 32, 32);
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 100;
   padding-bottom: 10px;
 }
+
 #header .logo-subtext:after,
 #header .logo-subtext:before{
-    padding: 8px;
-    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
-    text-decoration:line-through;
+  font-size: 1em;
+  padding: 8px;
+  content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  text-decoration:line-through;
 }
 
 .intro .overlay {
@@ -354,29 +388,41 @@ a:focus,
   /* padding-bottom: 30%; */
 }
 .intro .intro-image {
-  margin-top: -30px;
+  margin-top: -10px;
   /* padding-bottom: 30%; */
 }
 
+.intro #link1{
+  background: #4285F4;
+  color: #ffffff;
+}
+.intro #link1:hover{
+  background: #ffffff;
+  color: #4285F4;
+}
+
+
+.intro #link2{
+  background: #ffffff;
+  color: #4285F4;
+}
+.intro #link2:hover{
+  background: #4285F4;
+  color: #ffffff;
+}
+
 header .intro-text {
-  background: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+  background:  rgba(255, 255, 255, 0.5);
   padding: 5px;
   min-width: 490px;
-  /* -webkit-clip-path: polygon(17% 0%, 85% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%, 0% 86%, 0% 17%);
-  clip-path: polygon(17% 0%, 85% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%, 0% 86%, 0% 17%); */
   border: 1px solid rgb(212, 212, 212);
 }
 
 header .intro-text-overlay {
-  background: rgba(255, 255, 255, 0.7);
+  background:  rgb(220, 220, 220,0.8);
   border: 1px solid rgb(212, 212, 212);
   padding: 30px 5px 0px 5px;
-  /* -webkit-clip-path: polygon(17% 0%, 85% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%, 0% 86%, 0% 17%);
-  clip-path: polygon(17% 0%, 85% 0%, 100% 0%, 100% 85%, 85% 100%, 0% 100%, 0% 86%, 0% 17%); */
-}
-
-.intro .btn {
-  margin:0px 20px 20px 20px;
 }
 
 .intro h1 {
@@ -395,7 +441,7 @@ header .intro-text-overlay {
   font-weight: 300;
   line-height: 30px; */
   margin: 0 auto;
-  margin-bottom: 20px;
+  padding: 10px 50px 20px 50px;
 }
 
 /*story*/
@@ -414,7 +460,7 @@ header .intro-text-overlay {
 }
 
 #story .overlay{
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(240, 240, 240, 0.95);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -427,15 +473,18 @@ header .intro-text-overlay {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  color:   rgb(221, 221, 221);
+  color:   rgb(194, 194, 194);
 }
 
-#characters .container h2, #characters .container h3 {
-  color:   rgb(221, 221, 221);
+#characters .container h2 {
+  color:   #4285F4
+}
+ #characters .container h3 {
+  color:   rgb(240, 240, 240);
 }
 
 #characters .overlay{
-  background: rgba(124, 124, 124, 0.5);
+  background: rgba(64, 64, 64, 0.3);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -481,13 +530,24 @@ display: none;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; */
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(240, 240, 240);
 }
 #features .overlay{
   background: rgba(255, 255, 255, 0.6);
   margin: 0px;
   padding-top: 50px;
 }
+
+#features .features-section{
+  width: 100%;
+ }
+
+ #features .features-section-wrapper{
+  width: 50%;
+  text-align: left;
+ }
+  
+
 
 /*styles classes section*/
 
@@ -497,7 +557,7 @@ display: none;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; */
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(240, 240, 240);
 }
 #classes img {
   
@@ -533,21 +593,18 @@ display: none;
   border-radius: 0%;
   text-align: left;
   background: rgb(255, 255, 255);
-  border: 1px solid rgb(170, 170, 170);
+  border: 1px solid #c5c5c5;
   padding: 10px 10px 10px 20px ;
 }
 
 #roadmap .features-section-wrapper{
   width: 47%;
-  background: rgb(207, 207, 207);
   text-align: left;
-  background: rgba(255, 255, 255, 0);
-  border: 1px solid rgb(170, 170, 170);
+  border: 1px solid #979797;
   padding: 5px;
   margin: 10px;
   min-width: 350px;
 }
-
 
 /*team section*/
 #team img {
@@ -653,7 +710,7 @@ display: none;
 /* Contact Section */
 #contact {
   padding: 50px 0 50px;
-  background: linear-gradient(to right, #888888 0%, #838383 100%);
+  background: linear-gradient(to right, #404040 0%, #404040 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 
