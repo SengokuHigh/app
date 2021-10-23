@@ -53,9 +53,9 @@
     "id": "story",
     "title": "Story",
     "paragraph": [
-      {"title":"","text":"In the year 2050, Hayato, a 17 year old boy who has attended 20 schools that always ended up getting kicked out for starting fights. After getting expelled from his 20th school and couldn't find another school that would accept him, Hayato thought it's a God sent when he encountered a mysterious lady, Megumi, who proposed to help him enroll into a school. "    },
-      {"title":"","text":"Sengoku High, infamous for having many students like him, who have been rejected by other high schools for troublemaking, except in this school, everyone possesses supernatural powers. And it turned out that Hayato possesses power that he never knew."},
-      {"title":"","text": "Sengoku High is ruled by the principal, Nomura Oda, along with 4 section lords under him. And thus begins a story filled with rivaling schools’ fights with weapons and supernatural powers…"}
+      {"title": "", "text": "It is the year 2050, through the miracles of science, humanity has gained incredible powers. Increased strength, speed and manipulation of the elements are now possible. Schools specializing in teaching the new generation of humans on how to use this new found power have started popping up all over the world."},
+      {"title": "", "text": "Hayato is a 17 year old boy who is gifted with an exceptional talent to fully utilized his gifts. He has aspirations to compete in the National (Fight?) Tournament and be the champion. Fortunately for him, a scout named Megumi from Sengoku High, a top (Fight?) school, has recognized his potential."},
+      {"title": "", "text": "Not wanting to miss the oppotunity to improve his skills and gain recognition, Hayoto enrolled into Sengoku High. Unbeknownst to Hayato, Megumi has an ulterior motive for scouting him in the first place."}          
     ],
     "position": "center"
   },
@@ -90,59 +90,59 @@
         "image": "img/character/placeholder.png",
         "title": "Kenji",
         "subtitle": "賢司",
-        "text": "Master of Sword Style in Sengoku High"
+        "text": "Dean of Swords in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
         "title": "Akira",
         "subtitle": "アキラ",
-        "text": "Master of Stealth Style in Sengoku High"
+        "text": "Dean of Stealth in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
         "title": "Ogawa",
         "subtitle": "小川",
-        "text": "Master of Spell Style in Sengoku High"
+        "text": "Dean of Sorcery in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
         "title": "Makiyo",
         "subtitle": "マキヨ",
-        "text": "Master of Summon Style in Sengoku High"
+        "text": "Dean of Summoning in Sengoku High"
       }
     ]
   },
 
   "Styles": {
     "id": "classes",
-    "title": "Styles",
+    "title": "Disciplines",
     "subtitle": "戦闘スタイル",
-    "description1": "There four fighting styles, each has their own pros and cons. Choose your style!",
+    "description1": "There four disciplines in Sengoku High, each with their strengths and weaknesses.",
     "description2": "",
     "features": [
       {
         "image": "img/classes/sword_style.png",
-        "title": "Swordman",
+        "title": "Swords",
         "subtitle": "刀",
-        "text": "Swordman specializes in melee attacks, whether with weapons or just plain old fists and is the most skilled with the swords and katana weapons."
+        "text": "The Swords discipline specializes in close quaters combat, whether with melee weapons or barefisted. Students are expected to endure grueling training to build up their minds and body."
       },
       {
         "image": "img/classes/rouge_style.png",
         "title": "Stealth",
         "subtitle": "暗殺",
-        "text": "Assassins have higher skill sets in the areas of stealth, sneaking, and smaller, quicker weaponsbut usually begins with lower defensive stats than other classes."
+        "text": "The Stealth discipline specializes in multiple skill sets in the areas of stealth. Sneaking, espionage and using concealed weapons are all taught to students."
       },
       {
         "image": "img/classes/magic_style.png",
-        "title": "Spell",
+        "title": "Sorcery",
         "subtitle": "魔法",
-        "text": "Mages do their damage from long range with fire, ice, and other spell use as opposed to close quarters, where they’re usually susceptible to damage."
+        "text": "The Sorcery discipline specializes in the study of the elements that make up the world. Students are encouraged to share their research with fellow peers to further expand upon each other's knowledge of elemental manipulation. (Many school fires are started because of students playing with fire.)"
       },
       {
         "image": "img/classes/summoner_style.png",
         "title": "Summon",
         "subtitle": "召喚",
-        "text": "Summoners are known for their ability to summon magical beasts to fight using their special magic."
+        "text": "The Summoning discipline specializes in communicating with spirits previously invisible to humans. Students are able to befriend spirits and give form to them. Be warned, not all spirits are friendly!"
       }
     ]
   },
