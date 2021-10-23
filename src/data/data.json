@@ -136,11 +136,11 @@
         "image": "img/classes/magic_style.png",
         "title": "Sorcery",
         "subtitle": "魔法",
-        "text": "The Sorcery discipline specializes in the study of the elements that make up the world. Students are encouraged to share their research with fellow peers to further expand upon each other's knowledge of elemental manipulation. (Many school fires are started because of students playing with fire.)"
+        "text": "The Sorcery discipline specializes in the study of the elements that make up the world. Students are encouraged to share their research with fellow peers to further expand upon each other's knowledge of elemental manipulation.  (Many school fires are started because of students playing with fire.)"
       },
       {
         "image": "img/classes/summoner_style.png",
-        "title": "Summon",
+        "title": "Summoning",
         "subtitle": "召喚",
         "text": "The Summoning discipline specializes in communicating with spirits previously invisible to humans. Students are able to befriend spirits and give form to them. Be warned, not all spirits are friendly!"
       }
@@ -186,7 +186,7 @@
   "Roadmap":{
     "id":"roadmap",
     "title": "Roadmap",
-    "description1":"Each milestone unlocks after a certain percent of Students have been minted. Students of Sengoku are free to suggest any new concept they wish to see happening in the school.",
+    "description1":"Each milestone is unlocked after a certain percentage of Student NFT have been minted. Any suggestions for new concept are welcomed.",
     "features":[
       {
         "title": "0% Completion",
