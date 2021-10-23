@@ -1,4 +1,4 @@
-export const Roadmap = (props) => {
+export const FeaturesV2 = (props) => {
   return (
     <div  id={props.data ? props.data.id : "features"} className='features text-center'>
     <div className='overlay'>

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
-import { Roadmap } from "./components/roadmap";
+import { FeaturesV2 } from "./components/features2";
 import { FeatureSlider } from "./components/featureSlider";
 import { Content } from "./components/content";
 
@@ -29,10 +29,10 @@ const App = () => {
 
       <Content data={landingPageData.Story}/>
 
-      <FeatureSlider data={landingPageData.Features1} />
-      <Features data={landingPageData.Features3} />
-      <Features data={landingPageData.Features2} />
-      <Roadmap data={landingPageData.Roadmap} />
+      <FeatureSlider data={landingPageData.Character} />
+      <FeaturesV2 data={landingPageData.Features} />
+      <Features data={landingPageData.Styles} />
+      <FeaturesV2 data={landingPageData.Roadmap} />
       <Features data={landingPageData.Team} />
 
       <Contact data={landingPageData.Contact} />

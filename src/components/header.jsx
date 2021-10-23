@@ -32,9 +32,10 @@ export const Header = (props) => {
 
                     {props.data
                         ? props.data.links.map((d, i) => (
-                          <a
+                          <a 
+                          id={(d && d.link) ? d.id : "intro-button-id"} 
                           href={d ? d.link : 'Loading'}
-                          className='btn btn-custom btn-lg page-scroll'
+                          className='btn btn-custom btn-lg page-scroll intro-button'
                         >
                           {d ? d.linkeName : 'Loading'}
                         </a>

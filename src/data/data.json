@@ -26,28 +26,6 @@
     }
   ],
 
-  "Headerbackup": {
-    "logoText": "SENGOKU HIGH",
-    "logoSubText": "戦国学園",
-    "title": "Coming Soon",
-    "paragraph": [
-      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 fighters ready to be enrolled. Each fighter is original, come with its own style and weapons. "}
-    ]
-    ,
-    "links":[
-      {
-        "link": "LINK1",
-        "linkeName": "LINK1"},
-        
-      {
-        "link": "LINK1",
-        "linkeName": "LINK1"}
-    ],
-    "logo": "img/logo_b.png",
-    "image": "img/hayato.png"
-  },
-
-
   "Header": {
     "logoText": "SENGOKU HIGH",
     "logoSubText": "戦国学園",
@@ -58,12 +36,14 @@
     ,
     "links":[
       {
-        "link": "LINK1",
-        "linkeName": "LINK1"},
+        "id": "link1",
+        "link": "https://twitter.com/SengokuHigh_NFT",
+        "linkeName": "TWITTER"},
         
       {
-        "link": "LINK1",
-        "linkeName": "LINK1"}
+        "id": "link2",
+        "link": "https://www.instagram.com/sengokuhigh_nft/",
+        "linkeName": "INSTAGRAM"}
     ],
     "image": "img/hayato.png"
   },
@@ -81,52 +61,52 @@
   },
 
 
-  "Features1": {
+  "Character": {
     "id": "characters",
     "title": "Characters",
-    "description1": "These characters are designed 1/1 and can only be minted once, so look out for the drops! They are carefully crafted with a logical backstory, personal motivation, and a character arc over the course of the story. We will reveal more along the way!",
+    "description1": "",
     "description2": "",
     
     "features": [
       {
         "image": "img/character/hayato_side_profile.png",
         "title": "Hayato",
-        "text": "A reckless shonen that possesses hidden special power"
+        "text": "A reckless shonen that possesses special power"
       },
       {
         "image": "img/character/146.png",
         "title": "Megumi",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "text": "Mysterious Lady from Sengoku High"
       },
       {
         "image": "img/character/396.png",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "Nomura",
+        "text": "Principal of Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "Kenji",
+        "text": "Master of Sword Style in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "Akira",
+        "text": "Master of Stealth Style in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "Ogawa",
+        "text": "Master of Spell Style in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "title": "Makiyo",
+        "text": "Master of Summon Style in Sengoku High"
       }
     ]
   },
 
-  "Features2": {
+  "Styles": {
     "id": "classes",
     "title": "Styles",
     "description1": "There four fighting styles, each has their own pros and cons. Choose your style!",
@@ -155,71 +135,84 @@
     ]
   },
 
-  "Features3":{
+
+  "Features":{
     "id":"features",
     "title": "Features",
     "description":"",
     "features":[
       {
-        "title": "Rarity",
-        "text": "Each character are worth between 5 to 10 points. A rare items would worth more point than an item that are common."
-      },
-      {
-        "title": "Character Stats",
-        "text": "Each character has a set of stats; VIT, STR, DEX, INT. These stats are distributed randomly based on the amount of points it is worth."
+        "title": "Character Rarity",
+        "texts":[
+          {"title": "And More",
+            "text":  "Every characters are equipped with a combination of gears that has rarity ranging from common to mythic"
+          },
+          {
+            "title": "",
+            "text": "Character's total power level scales with combined items' rarity"
+          }
+        ]
       },
       {
         "title": "Other Utilites",
-        "text": "The Stats will contributes to our game mechanics, future contests and raffles!"
-      },
-      {
-        "title": "And More",
-        "text": "Detail TBA"
+        "texts":[
+          {
+            "title": "",
+            "text": "Character's rarity will contribute to our game mechanics; PvP, future contests and raffles"
+          },
+          {
+            "title": "",
+            "text": "Stay tune for more detail TBA!"
+          }
+        ]
       }
     ]
   },
+
+
+
   "Roadmap":{
     "id":"roadmap",
     "title": "Roadmap",
     "description":"Road map",
     "features":[
       {
-        "title": "title1",
+        "title": "10% Completion",
         "texts": [
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."}
+          {"text": "Website and Smart contract deployed"},
+          {"text": "Storyline introduced"},
+          {"text": "Presale Whitelisting starts"},
+          {"text": "Official sale date determined"}
         ]
       },
       
       {
-        "title": "title2",
+        "title": "20% Completion",
         "texts": [
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."}
+          {"text": "Presale starts"},
+          {"text": "Reveal of characters"},
+          {"text": "Rarity concepts introduced"},
+          {"text": "Minting sold out"}
         ]
       },
       
       {
-        "title": "title3",
+        "title": "50% Completion",
         "texts": [
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."}
+          {"text": "Game mechanics introduced"},
+          {"text": "Game development roadmap introduced"},
+          {"text": "Community rebate & incentive"},
+          {"text": "Game date finalised"}
         ]
       },
       
       {
-        "title": "title4",
+        "title": "100% Completion",
         "texts": [
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."},
-          {"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."}
+          {"text": "Game Commence"},
+          {"text": "Exclusive Merchandise worldwide giveaway"},
+          {"text": "School Funds give away events"},
+          {"text": "Sengoku High Season 2"}
         ]
       }
     ]
@@ -228,27 +221,27 @@
   "Team": {
     "id": "team",
     "title": "Team",
-    "description2": "We have always been interested in Japanese culture and blockchain technology. So, we began to think, maybe we could create a project based around them and that is how our project got started. We decided to work on a project that offers anime style content to every weebs like us, who enjoys playing video games and collecting merchandise. Our objective is to create a NFT that is not just a regular token, but something that has utility in our project ecosystem that we are creating.",
+    "description2": "We are developing a project that revolves around anime style content and our objective is to create a NFT that is not just a regular token, but something that has utility in our project ecosystem that we are creating.",
     "features": [
       {
         "image": "img/team/102.jpg",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor ."
+        "title": "Jun",
+        "text": "Artist"
       },
       {
         "image": "img/team/168.jpg",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor ."
+        "title": "Jonny T.",
+        "text": "Content Creator"
       },
       {
         "image": "img/team/173.jpg",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor ."
+        "title": "Harry",
+        "text": "Marketer"
       },
       {
         "image": "img/team/186.jpg",
-        "title": "Lorem ipsum",
-        "text": "Lorem ipsum dolor ."
+        "title": "Wasaburou",
+        "text": "Developer"
       }
     ]
   },
@@ -257,5 +250,31 @@
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
+  },
+
+  
+
+  "Headerbackup": {
+    "logoText": "SENGOKU HIGH",
+    "logoSubText": "戦国学園",
+    "title": "Coming Soon",
+    "paragraph": [
+      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 fighters ready to be enrolled. Each fighter is original, come with its own style and weapons. "}
+    ]
+    ,
+    "links":[
+      {
+        "id": "link1",
+        "link": "LINK1",
+        "linkeName": "LINK1"},
+        
+      {
+        "id": "link2",
+        "link": "LINK1",
+        "linkeName": "LINK1"}
+    ],
+    "logo": "img/logo_b.png",
+    "image": "img/hayato.png"
   }
+
 }
