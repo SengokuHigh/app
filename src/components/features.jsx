@@ -6,7 +6,8 @@ export const Features = (props) => {
 
         <div className='col-md-10 col-md-offset-1 section-title'>
 
-          <h2>{props.data ? props.data.title : "Features"}</h2>
+        <h2 className="title">{props.data ? props.data.title : "Features"}</h2>
+        <h2 className="subtitle">{props.data ? props.data.subtitle : "loading..."}</h2>
           <p>{props.data ? props.data.description1 : ""}</p>
           <div className='row'>
             {props.data
@@ -15,7 +16,8 @@ export const Features = (props) => {
                 <div key={`${d.title}-${i}`} className='features-section'>
                   {' '}
                   <img src={d.image ? d.image : ""} className="img-responsive" alt="" />
-                  <h3>{d.title}</h3>
+                  <h3 className="title">{d.title}</h3>
+                  <h3 className="subtitle">{d.subtitle}</h3>
                   <p>{d.text}</p>
                 </div>
                 </div>

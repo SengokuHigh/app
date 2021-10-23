@@ -71,36 +71,43 @@
       {
         "image": "img/character/hayato_side_profile.png",
         "title": "Hayato",
+        "subtitle": "隼人",
         "text": "A reckless shonen that possesses special power"
       },
       {
         "image": "img/character/146.png",
         "title": "Megumi",
+        "subtitle": "めぐみ",
         "text": "Mysterious Lady from Sengoku High"
       },
       {
         "image": "img/character/396.png",
         "title": "Nomura",
+        "subtitle": "野村",
         "text": "Principal of Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
         "title": "Kenji",
+        "subtitle": "賢司",
         "text": "Master of Sword Style in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
         "title": "Akira",
+        "subtitle": "アキラ",
         "text": "Master of Stealth Style in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
         "title": "Ogawa",
+        "subtitle": "小川",
         "text": "Master of Spell Style in Sengoku High"
       },
       {
         "image": "img/character/placeholder.png",
         "title": "Makiyo",
+        "subtitle": "マキヨ",
         "text": "Master of Summon Style in Sengoku High"
       }
     ]
@@ -109,27 +116,32 @@
   "Styles": {
     "id": "classes",
     "title": "Styles",
+    "subtitle": "戦闘スタイル",
     "description1": "There four fighting styles, each has their own pros and cons. Choose your style!",
     "description2": "",
     "features": [
       {
         "image": "img/classes/sword_style.png",
         "title": "Swordman",
+        "subtitle": "刀",
         "text": "Swordman specializes in melee attacks, whether with weapons or just plain old fists and is the most skilled with the swords and katana weapons."
       },
       {
         "image": "img/classes/rouge_style.png",
-        "title": "Ninja",
+        "title": "Stealth",
+        "subtitle": "暗殺",
         "text": "Assassins have higher skill sets in the areas of stealth, sneaking, and smaller, quicker weaponsbut usually begins with lower defensive stats than other classes."
       },
       {
         "image": "img/classes/magic_style.png",
-        "title": "Magician",
+        "title": "Spell",
+        "subtitle": "魔法",
         "text": "Mages do their damage from long range with fire, ice, and other spell use as opposed to close quarters, where they’re usually susceptible to damage."
       },
       {
         "image": "img/classes/summoner_style.png",
-        "title": "Summoner",
+        "title": "Summon",
+        "subtitle": "召喚",
         "text": "Summoners are known for their ability to summon magical beasts to fight using their special magic."
       }
     ]
@@ -174,34 +186,34 @@
   "Roadmap":{
     "id":"roadmap",
     "title": "Roadmap",
-    "description":"Road map",
+    "description1":"Each milestone unlocks after a certain percent of Students have been minted. Students of Sengoku are free to suggest any new concept they wish to see happening in the school.",
     "features":[
       {
-        "title": "10% Completion",
+        "title": "0% Completion",
         "texts": [
           {"text": "Website and Smart contract deployed"},
           {"text": "Storyline introduced"},
-          {"text": "Presale Whitelisting starts"},
+          {"text": "Presale Whitelisting started"},
           {"text": "Official sale date determined"}
         ]
       },
       
       {
-        "title": "20% Completion",
+        "title": "30% Completion",
         "texts": [
-          {"text": "Presale starts"},
-          {"text": "Reveal of characters"},
+          {"text": "Presale started"},
+          {"text": "Character & Story Revealed"},
           {"text": "Rarity concepts introduced"},
-          {"text": "Minting sold out"}
+          {"text": "Public sale sold out"}
         ]
       },
       
       {
         "title": "50% Completion",
         "texts": [
+          {"text": "Community rebate & incentive started"},
           {"text": "Game mechanics introduced"},
           {"text": "Game development roadmap introduced"},
-          {"text": "Community rebate & incentive"},
           {"text": "Game date finalised"}
         ]
       },
@@ -209,7 +221,7 @@
       {
         "title": "100% Completion",
         "texts": [
-          {"text": "Game Commence"},
+          {"text": "Game Commenced"},
           {"text": "Exclusive Merchandise worldwide giveaway"},
           {"text": "School Funds give away events"},
           {"text": "Sengoku High Season 2"}
@@ -225,8 +237,8 @@
     "features": [
       {
         "image": "img/team/102.jpg",
-        "title": "Jun",
-        "text": "Artist"
+        "title": "Wasaburou",
+        "text": "Developer"
       },
       {
         "image": "img/team/168.jpg",
@@ -240,8 +252,8 @@
       },
       {
         "image": "img/team/186.jpg",
-        "title": "Wasaburou",
-        "text": "Developer"
+        "title": "Jun",
+        "text": "Artist & Developer"
       }
     ]
   },
