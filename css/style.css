@@ -419,7 +419,8 @@ a:focus,
   }
 
 .intro .overlay {
-  background: url(../img/megumi.png) fixed center no-repeat; 
+  /* background: url(../img/megumi.png) fixed center no-repeat;  */
+  background: url(../img/3v3_t.png) fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -491,7 +492,8 @@ a:focus,
   /* width: 350px; */
 }
 #story {
-  background: url(../img/megumi.png) fixed center no-repeat;
+  /* background: url(../img/megumi.png) fixed center no-repeat; */
+  background: url(../img/3v3.png) fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -658,7 +660,7 @@ display: none;
 /*roadmap section*/
 
 #roadmap {
-  background: url(../img/nomura.png) fixed center no-repeat;
+  background: url(../img/megumi_nomura.png) fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -703,13 +705,12 @@ display: none;
   margin: auto;
   border-radius: 0%;
   padding: 5px;
-  background: rgb(255, 255, 255, 0.7);
   border: 1px solid rgb(170, 170, 170);
 }
 
 
 #team {
-  background: url(../img/nomura.png) fixed center no-repeat;
+  background: url(../img/megumi_nomura.png) fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
