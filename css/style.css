@@ -422,7 +422,7 @@ a:focus,
   /* background: url(../img/megumi.png) fixed center no-repeat;  */
   padding: 10px 10px 0px 10px;
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .intro .overlay {
     background: url(../img/3v3_t_600.png) fixed center no-repeat;
     -webkit-background-size: cover;
@@ -440,7 +440,7 @@ a:focus,
     background-size: cover;
     -o-background-size: cover;
   }
-} 
+}  */
 
 .intro .overlay2 {
   height: 100%;
