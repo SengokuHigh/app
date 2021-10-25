@@ -31,7 +31,7 @@
     "logoSubText": "戦国学園",
     "title": "Coming Soon",
     "paragraph": [
-      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 fighters ready to be enrolled. Each fighter is original, come with its own style and weapons. "}
+      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 students ready to be enrolled. Each student is original and comes with its own style and weapons."}
     ]
     ,
     "links":[
@@ -86,25 +86,25 @@
         "text": "Head Principal"
       },
       {
-        "image": "img/character/placeholder.png",
+        "image": "img/character/sword.png",
         "title": "Kenji",
         "subtitle": "賢司",
-        "text": "Dean of Swords"
+        "text": "Dean of Sword"
       },
       {
-        "image": "img/character/placeholder.png",
-        "title": "Akira",
-        "subtitle": "アキラ",
+        "image": "img/character/stealth.png",
+        "title": "Akari",
+        "subtitle": "明かり",
         "text": "Dean of Stealth"
       },
       {
-        "image": "img/character/placeholder.png",
+        "image": "img/character/sorc.png",
         "title": "Ogawa",
         "subtitle": "小川",
         "text": "Dean of Sorcery"
       },
       {
-        "image": "img/character/placeholder.png",
+        "image": "img/character/summoning.png",
         "title": "Makiyo",
         "subtitle": "マキヨ",
         "text": "Dean of Summoning"
@@ -241,11 +241,11 @@
       },
       {
         "image": "img/team/162.png",
-        "title": "JIN",
+        "title": "Jin",
         "text": "Artist"
       },
       {
-        "image": "img/team/66.png",
+        "image": "img/team/48.png",
         "title": "Wasaburou",
         "text": "Full-Stack Developer"
       },
