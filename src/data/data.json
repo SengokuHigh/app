@@ -37,13 +37,13 @@
     "links":[
       {
         "id": "link1",
-        "link": "https://twitter.com/SengokuHigh_NFT",
-        "linkeName": "TWITTER"},
+        "link": "https://discord.gg/4hZhYsTCrU",
+        "linkeName": "DISCORD"},
         
       {
         "id": "link2",
-        "link": "https://www.instagram.com/sengokuhigh_nft/",
-        "linkeName": "INSTAGRAM"}
+        "link": "https://twitter.com/SengokuHigh_NFT",
+        "linkeName": "TWITTER"}
     ],
     "image": "img/hayato.png"
   },
@@ -260,7 +260,7 @@
   "Contact": {
     "twitter": "https://twitter.com/SengokuHigh_NFT",
     "instagram": "https://www.instagram.com/sengokuhigh_nft/",
-    "discord": "#"
+    "discord": "https://discord.gg/4hZhYsTCrU"
   },
 
 
