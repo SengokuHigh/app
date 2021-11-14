@@ -31,7 +31,7 @@
     "logoSubText": "戦国学園",
     "title": "Coming Soon",
     "paragraph": [
-      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 students ready to be enrolled. Each student is original and comes with its own style and weapons."}
+      {"text": "Sengoku High is a school that lives on the blockchain with 7,777 students ready to be enrolled. Each student is unique and comes with its own set of gears."}
     ]
     ,
     "links":[
@@ -115,7 +115,6 @@
   "Styles": {
     "id": "classes",
     "title": "Disciplines",
-    "subtitle": "戦闘スタイル",
     "description1": "Humanity’s power can be split into four disciplines, each with their own strengths and weaknesses.",
     "description2": "",
     "features": [
@@ -156,24 +155,24 @@
         "title": "Character Rarity",
         "texts":[
           {"title": "And More",
-            "text":  "Every characters are equipped with a combination of gears that has rarity ranging from common to mythic"
+            "text":  "Each character comes equipped with a set of gear with varying rarity ranging npmfrom common to legendary."
           },
           {
             "title": "",
-            "text": "Character's total power level scales with combined items' rarity"
+            "text": "A character's total power is determined by the combined rarity of its gear."
           }
         ]
       },
       {
-        "title": "Other Utilites",
+        "title": "Other Utilities",
         "texts":[
           {
             "title": "",
-            "text": "Character's rarity will contribute to our game mechanics; PvP, future contests and raffles"
+            "text": "The power level and rarity of each character will play a role in our future game, which includes PvP. Characters of certain rarities will also be given as giveaways in contests and events. "
           },
           {
             "title": "",
-            "text": "Stay tune for more detail TBA!"
+            "text": "Stay tuned for more details!"
           }
         ]
       }
@@ -251,7 +250,7 @@
       },
       {
         "image": "img/team/81.png",
-        "title": "Jonny T.",
+        "title": "Jonny S.",
         "text": "Creative Director"
       }
     ]
