@@ -544,7 +544,7 @@ a:focus,
 }
 @media (max-width: 600px) {
   #characters {
-    background: url(../img/3v3_bw_600.png) fixed center no-repeat;
+    background: url(../img/3v3_bw_600.jpg) fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -554,7 +554,7 @@ a:focus,
 } 
 @media (min-width: 600px) {
   #characters {
-    background: url(../img/3v3_bw.png) fixed center no-repeat;
+    background: url(../img/3v3_bw.jpg) fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

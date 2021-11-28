@@ -155,7 +155,7 @@
         "title": "Character Rarity",
         "texts":[
           {"title": "And More",
-            "text":  "Each character comes equipped with a set of gear with varying rarity ranging npmfrom common to legendary."
+            "text":  "Each character comes equipped with a set of gear with varying rarity ranging from common to legendary."
           },
           {
             "title": "",
@@ -234,22 +234,22 @@
     "description": "We are developing a project that revolves around anime style content and our objective is to create a NFT that is not just a regular token, but something that has utility in our project ecosystem that we are creating.",
     "features": [
       {
-        "image": "img/team/135.png",
+        "image": "img/team/135.jpg",
         "title": "Henry T.",
         "text": "Project Manager"
       },
       {
-        "image": "img/team/162.png",
+        "image": "img/team/162.jpg",
         "title": "Jin",
         "text": "Artist"
       },
       {
-        "image": "img/team/48.png",
+        "image": "img/team/48.jpg",
         "title": "Wasaburou",
         "text": "Full-Stack Developer"
       },
       {
-        "image": "img/team/81.png",
+        "image": "img/team/81.jpg",
         "title": "Jonny S.",
         "text": "Creative Director"
       }
